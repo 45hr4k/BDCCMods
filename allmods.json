@@ -2647,6 +2647,22 @@
 		"modversion": "0.2.0",
 		"gameversion": "0.3.2",
 		"download": "https://raw.githubusercontent.com/Alexofp/BDCCMods/main/mods/FurUnderClothing.zip"
+	},
+	{
+		"name": "Limp When Hurt",
+		"description": "[b]Dependencies[/b]: FoxLib (optional, for the option; tested with v0.10.7)\n\nDescription:\nCharacters (the player and NPCs) limp while walking when their health is low.\n\n-- Health is the pain a character can still take before being defeated (100% = no pain)\n-- Mod Options -> \"Limp when hurt\": limp below this health (default 70%)\n-- Switches only between steps, so the posture doesn't jump while walking\n-- Replaces no game files\n\n[url=https://raw.githubusercontent.com/Alexofp/BDCCMods/main/previews/LimpWhenHurt.png]Click for Preview[/url]",
+		"author": "45hr4k",
+		"modversion": "0.1.1",
+		"gameversion": "0.3.2",
+		"download": "https://raw.githubusercontent.com/Alexofp/BDCCMods/main/mods/LimpWhenHurt.zip"
+	},
+	{
+		"name": "Mod Conflict Check",
+		"description": "[b]Dependencies[/b]: None\n\nDescription:\nAdds a \"Check mod conflicts\" button to the troubleshooting screen of the main menu. It checks the mods that are loaded right now and shows a report:\n\n-- Files shipped by more than one mod (only the mod loaded last wins)\n-- Base game files replaced by a mod (a common cause of missing or broken body parts)\n-- IDs registered twice (body parts, items, species, events, perks, skins and more)\n-- Mod scripts that fail to load\n-- Body parts whose doll scene is missing\n-- The report can be saved to a text file, handy for bug reports\n\nNotes:\n-- The first check takes a few seconds, after that it is instant until the game is restarted\n-- .pck mods can't be looked into, only .zip mods\n\n[url=https://raw.githubusercontent.com/Alexofp/BDCCMods/main/previews/ModConflictCheck.png]Click for Preview[/url]",
+		"author": "45hr4k",
+		"modversion": "0.1.1",
+		"gameversion": "0.3.2",
+		"download": "https://raw.githubusercontent.com/Alexofp/BDCCMods/main/mods/ModConflictCheck.zip"
 	}
 	]
 }
